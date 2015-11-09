@@ -1,0 +1,35 @@
+{
+  "name": "redis-event-bus",
+  "version": "0.1.0",
+  "description": "A simple wrapper around Redis pubsub that allows you to subscribe and publish events.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jus101/redis-event-bus"
+  },
+  "keywords": [
+    "redis",
+    "pubsub",
+    "event",
+    "bus"
+  ],
+  "author": "Justin McCormack <jus101@gmail.com> (https://github.com/jus101)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jus101/redis-event-bus/issues"
+  },
+  "homepage": "https://github.com/jus101/redis-event-bus",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "redis": "^2.3.0"
+  }
+}
