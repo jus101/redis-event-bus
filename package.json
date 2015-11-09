@@ -1,6 +1,6 @@
 {
   "name": "redis-event-bus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple wrapper around Redis pubsub that allows you to subscribe and publish events.",
   "main": "index.js",
   "directories": {
